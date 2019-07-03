@@ -1,0 +1,165 @@
+.company-info-wrap {
+    height: 680px;
+    margin-top: -4px; 
+    max-width: 1170px;
+    width:100%;
+    margin: auto;
+}
+
+.company-info-wrap-title {
+    padding-top: 100px;
+    font-family: Lato;
+    line-height: 33px;
+    font-size: 36px;
+    color: #34495e;
+    margin-bottom: 47px;
+    position: relative;
+    left: -4px;
+}
+
+.why-options {
+    height: 246px;
+    width: 570px;
+    margin-right: 30px;
+}
+
+.option-title:first-child {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    border-bottom: 1px solid #e5e5e5;
+    padding-left: 12px;
+    margin-bottom: 2px;
+    flex:1;
+    font-size:14px;
+    line-height: 20px;
+    display: flex;
+}
+
+.option { 
+    margin-top: 2px;
+    border-top: 1px solid #e5e5e5;
+ }
+
+.option-letter {
+    width: 38px;
+    border-left: 1px solid #e5e5e5;
+    color: #a1b1bc;
+    text-align: center;
+    height: 39px;
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.option-content {
+    margin-top: 21px;
+    margin-left: 17px;
+    margin-bottom: -19.1px;
+    height: 117.05px;
+    display: flex;
+}
+
+.option-img {
+    padding-left: 16px;
+    height: 80px;
+    max-width:80px;
+    flex:1;
+    display: inline;
+    background: #cccccc;
+}
+
+.services-wrap {
+    width: 570px;
+}
+
+.services-tabs {
+    height:40px;
+    display: flex;
+    flex-direction: row;
+    background:white;
+    border:1px solid #e5e5e5;
+    padding-right: 60px;
+}
+
+.tab {
+    font-size:14px; 
+    flex:1;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color: #a1b1bc;
+}
+
+.tab:hover {
+    border-top: 3px solid #1ABC9C;
+    color: #1ABC9C;
+    font-weight: bold;
+    border-radius: 0px;
+}
+
+/* .tab.active{
+    width: 147px;
+    border:3px solid #e5e5e5;
+    border-top: 4px solid #1abc9c;
+    color: #1abc9c;
+    height:40px;  
+    border-radius: 0px;
+} */
+
+.content-tab {
+    height: 206px;
+    background:white;
+    border:1px solid #e5e5e5;
+    padding-left: 17px;
+    padding: 20px;
+}
+
+.tab-img img{
+    width: 62px;
+    height: 68px;
+    margin-right: 25.5px;
+}
+
+.tab-img {
+    display: flex;
+    margin-top: 7px;
+    margin-bottom: 14.1px;
+} 
+
+.tab-text {
+    font-size:14px;
+    line-height: 24px;
+    color:#a1b1bc;
+}
+
+.company-info-wrap {
+    margin: auto;
+    display: flex;
+}
+
+.option-text, .teb-img-text {
+    margin-top: 2.1px;
+    flex: 1;
+    color: #a1b1bc;
+    font-size: 14px;
+    padding-left: 18px;
+    padding-right: 26px;
+    line-height: 24px;
+}
+
+.open {
+    border:1px solid #e5e5e5; 
+}
+
+.section {
+    border-top:1px solid #e5e5e5; 
+    border-right:1px solid #e5e5e5;  
+    border-left:1px solid #e5e5e5;  
+}
+
+.option {
+    border-left: 1px solid #e5e5e5;  
+    border-right: 1px solid #e5e5e5;
+}

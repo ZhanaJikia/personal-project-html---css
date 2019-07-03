@@ -1,0 +1,208 @@
+.component2-wrap {
+    height: 791px;
+    max-width: 1150px;
+    width:100%;
+    margin: auto;
+}
+
+#left-Button,
+#right-Button {
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 320px;
+    border: 1px solid white;
+    background: transparent;
+}
+
+#left-Button i,
+#right-Button i {
+    line-height: 24px;
+    height: 24px;
+    width: 100%;
+    text-align: center;
+    color: #2c3e50;
+
+}
+
+#left-Button  {
+    left: 71px;
+    top: 111px;
+    position: absolute;
+}
+
+#left-Button i,
+#right-Button i {
+    color: white;
+}
+
+#right-Button {
+    margin-left: 255px;
+    position: absolute;
+    right: 71px;
+    top: 111px;
+}
+
+#left-Button:hover,
+#right-Button:hover {
+    background: white;
+    cursor: pointer;
+}
+
+#left-Button:hover i,
+#right-Button:hover i {
+    color: #2c3e50!important;
+}
+
+
+.iphone-7 {
+    display: flex;
+    height: 742px;
+    width: 531px;
+    position: relative;
+    margin-top: 17px;
+    left: -38px;
+}
+
+.component2-content {
+    display: flex;
+    font-family: Lato;
+}
+
+.component2-info {
+    height: 530.79px;
+    width: 576.21px;
+    position: relative;
+    top: 118px;
+    right: 305px;
+    left: 68px;
+}
+
+.rightCarouselButton {
+    margin-left: 255px;
+    position: absolute;
+    right: 71px;
+    top: 111px;
+}
+
+.left-Button :hover,
+.right-Button :hover {
+    background: white;
+    cursor: pointer;
+}
+
+.left-Button :hover i,
+.right-Button :hover i {
+    color: #2c3e50;
+}
+
+.component2-header {
+    margin-bottom: 3px;
+    height: 178.67px;
+    width: 570px;
+}
+
+.product-slogan {
+    color: white;
+    font-family: Lato;
+    line-height: 60px;
+    font-size: 36px;
+    font-weight: 300;
+    margin-top: -7px;
+    margin-bottom: -20px;
+}
+
+.product-name {
+    margin-bottom: 23.5px
+}
+
+.product-name span{
+    color: white;
+    font-size: 87px;
+    position: relative;
+    top: 12px;
+    left: -1px;
+    font-weight: 300;
+    letter-spacing: 1.4pt;
+}
+
+.product-name span:last-child{
+    font-size: 58px;
+    position: relative;
+    left: 13px;
+    top: 1px;
+    border: solid white 1px;
+    border-radius: 10px;
+    padding: 0px 15px;
+    height: 17px;
+    min-height: fit-content;
+    padding-top: -20px;
+}
+
+.product-name {
+    margin-left: -4px;
+}
+
+.product-description {
+    display: flex;
+    width: 570px;
+    color: white;
+    font-size: 18px;
+    font-family: Lato;
+    line-height: 30px;
+    margin-bottom: 45px;
+    letter-spacing: -0.15pt;
+}
+
+.component2-btns div {
+    display: inline-block;
+    width: 160px;
+    height: 50px;
+    margin-right: 8px;
+    color: white;
+    font-size: 18px;
+    font-family: Lato;
+}
+
+
+.component2-btns div:first-child {
+    background: #1d2c38;
+
+}
+
+.component2-btns div:last-child {
+    background: #1abc9c;
+    color: white;
+}
+
+.component2-btns div span {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-dots {
+    margin: auto;
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: -10px;
+}
+
+.dot {
+    height: 15px;
+    width: 15px;
+    background: white;
+    border-radius: 10px;
+}
+
+.active {
+    border: 1px white solid;
+    background: transparent;
+    border-radius: 10px;
+}

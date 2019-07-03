@@ -1,0 +1,187 @@
+#section-1 {
+    width: 100%;
+    background: #ecf0f1;
+}
+
+.section1-wrap {
+    height: 784px;
+    padding-top: 92px;
+    max-width: 1170px;
+    width:100%;
+    margin: auto;
+    margin-bottom: 157px;
+    background: #ecf0f1;
+}
+
+.products-container,
+.products-header {
+    margin-top: 4px;
+} 
+
+.products-header {
+    margin-bottom: 41px;
+    font-size: 36px;
+    line-height: 33px;
+    font-family: Lato;
+}
+
+.productImage {
+    height: 200px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+}
+
+.sect1-arrows {
+    border: 1px solid #cdd9e1;
+    border-radius: 10px;
+    margin-right: 12px;
+    height: 38px;
+    width: 38px;
+    margin-right: 12px;
+    display: flex;
+    float:right;
+    align-items: center;
+    justify-content: center;
+    margin: 3px;
+} 
+
+.products-header .sect1-arrows:first-child {
+    margin-right: 0;
+}  
+
+ .sect1-arrows i {
+    font-size:24px;
+    color: #a1b1bc;
+    line-height:24px;
+} 
+
+.sect1-arrows:hover {
+    background: #2c3e50;
+}
+.sect1-arrows:hover i{
+    color: white;
+}
+
+.products-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 48px;
+}
+
+.product {
+    flex: 1;
+    margin-right: 30px;
+    height: 562px;
+    width: 270px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.product:last-child {
+    margin-right: 0;
+}
+
+.productImage {
+    width: 270px;
+    height: 370px;
+}
+
+.productDetails {
+    display: flex;
+    width: 270px;
+    height: 125px;
+    flex-direction: column;
+    padding-left: 21.1px;
+    padding-top: 8px;
+    border: 1px solid #e6e6e6;
+} 
+
+ .productTitle {
+    font-family: "Lato";
+    font-size: 18px;
+    color: #2c3e50;
+    line-height: 33px;
+
+} 
+ .productRating {
+    height: 33px;
+    align-items: center;
+    display: flex;
+}
+
+.productRating i {
+    font-size: 12px
+}
+
+.productRating i.fas {
+    color: #1abc9c
+}
+
+.productPrice {
+    display:flex;
+    line-height: 33px;
+    font-size: 20px;
+    font-family: Lato;
+    font-weight: bold;
+} 
+
+.productRating i.far {
+    color: #a1b1bc
+}
+
+.product-buttons {
+    display: flex;
+    width: 270px;
+    height: 73px;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #e6e6e6;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top: none;
+    margin-top: -5px;
+} 
+
+.product-buttons div {
+    width: 105px;
+    height: 28px;
+    margin: 0 8px;
+    padding-top: 6px;
+    font-size: 13px;
+    font-family: Lato;
+    color: white;
+    justify-content: space-evenly;
+    border-radius: 3px;
+    display: flex;
+    background: #a1b1bc;
+    margin: 0 10px;
+}
+
+.section1-wrap .product:hover .productDetails,
+.section1-wrap .product:hover .product-buttons {
+    background: #2c3e50;
+    margin-bottom: -3px;
+    border-bottom-width: 2px;
+}
+
+.section1-wrap .product:hover .productTitle,
+.section1-wrap .product:hover .product-buttons,
+.section1-wrap .product:hover .productPrice {
+    color: white;
+}
+
+.section1-wrap .product:hover .product-buttons {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px
+}
+
+.section1-wrap .product:hover .product-buttons div:nth-child(1) {
+    background: #1ABC9C;
+}
+
+.section1-wrap .product:hover .product-buttons div:nth-child(2) {
+    background: transparent;
+    border: 1px solid white;
+} 

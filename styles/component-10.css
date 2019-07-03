@@ -1,0 +1,44 @@
+#section-8 {
+    height: 300px;
+    width: 100%;
+    background-color: #34495E;
+}
+
+.sect-8-wrap {
+    width: 1086px;
+    margin: auto;
+    height: 100%;
+}
+
+.sect-8-content {
+    height: 282px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    font-family: "Lato";
+    color: #fff;
+}
+
+.sect-8-content .sect-8-item h1 {
+    font-size: 72px;
+    font-weight: 300;
+    margin-bottom: -3px;
+}
+
+.sect-8-content .sect-8-item p {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+.first {
+    margin-right: 109px;
+}
+
+.second {
+    margin-right: 131px;
+}
+
+.third {
+    margin-right: 108px;
+}

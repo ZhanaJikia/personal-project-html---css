@@ -1,0 +1,121 @@
+#section-6 {
+    background-color: black;
+}
+
+.sect6-container {
+    height: 680px;
+    margin-top: -4px; 
+    max-width: 1170px;
+    width:100%;
+    margin: auto;
+}
+
+#leftButton,
+#rightButton {
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    margin-top: 252px;
+    float: left;
+    background: #1a1c27;
+    border: none;
+    position: absolute;  
+}
+
+#rightButton {
+    right: 14px;
+    float: right;
+}
+#leftButton{
+    left: 14px;
+}
+
+#leftButton:hover,
+#rightButton:hover {
+    background: transparent;
+    cursor: pointer;
+    border: 2px solid white;
+}
+
+#leftButton i,
+#rightButton i {
+    color: white;
+    font-size: 30px;
+    border-radius: 30px;
+}
+
+.laptop-info {
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   height: 190px;
+   width: 612.7px;
+   display: flex;
+   margin: auto;
+   justify-content: center;
+}
+
+.laptop-title {
+    margin-top: 101px;
+    text-align: center;
+    color: white;
+    font-family: Lato;
+    line-height: 20px;
+    font-size: 30px;
+    align-items: center;
+    margin-bottom: 14px;
+}
+
+.laptop-description {
+    font-size: 14px;
+    line-height: 24px;
+    color: white;
+    margin-bottom: 47px;
+    margin-left: -32px;
+    padding-top: -23px;
+    width: 79%;
+    text-align: center;
+    margin: auto;
+}
+
+.laptop-btns {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 17px;
+    left: -2px;
+}
+
+.laptop-btns div {
+    height: 45px;
+    width: 170px;
+    color: white;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    margin: 0 5px;
+    justify-content: center;
+}
+
+.laptop-btns div:first-child {
+    border: 1px solid white;
+}
+
+.laptop-btns div:last-child {
+    background: #21c2f8
+}
+
+.png-wrap {
+    height: 680px;
+    margin-top: -4px; 
+    max-width: 1170px;
+    width:100%;
+    margin: auto;
+}
+
+.laptop-png {
+    padding-top: 109px;
+}
