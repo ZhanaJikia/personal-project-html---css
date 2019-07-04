@@ -5,8 +5,8 @@
     margin: auto;
 }
 
-#left-Button,
-#right-Button {
+.left-Button,
+.right-Button {
     height: 50px;
     width: 50px;
     border-radius: 5px;
@@ -19,8 +19,8 @@
     background: transparent;
 }
 
-#left-Button i,
-#right-Button i {
+.left-Button i,
+.right-Button i {
     line-height: 24px;
     height: 24px;
     width: 100%;
@@ -29,32 +29,32 @@
 
 }
 
-#left-Button  {
+.left-Button  {
     left: 71px;
     top: 111px;
     position: absolute;
 }
 
-#left-Button i,
-#right-Button i {
+.left-Button i,
+.right-Button i {
     color: white;
 }
 
-#right-Button {
+.right-Button {
     margin-left: 255px;
     position: absolute;
     right: 71px;
     top: 111px;
 }
 
-#left-Button:hover,
-#right-Button:hover {
+.left-Button:hover,
+.right-Button:hover {
     background: white;
     cursor: pointer;
 }
 
-#left-Button:hover i,
-#right-Button:hover i {
+.left-Button:hover i,
+.right-Button:hover i {
     color: #2c3e50!important;
 }
 
@@ -64,8 +64,8 @@
     height: 742px;
     width: 531px;
     position: relative;
-    margin-top: 17px;
-    left: -38px;
+    margin-top: 8.8x;
+    left: -45.4px;
 }
 
 .component2-content {
@@ -112,12 +112,12 @@
     line-height: 60px;
     font-size: 36px;
     font-weight: 300;
-    margin-top: -7px;
-    margin-bottom: -20px;
+    margin-top: -20px;
+    margin-left: -9.6px;
 }
 
 .product-name {
-    margin-bottom: 23.5px
+    margin-bottom: 13.5px;
 }
 
 .product-name span{
@@ -131,20 +131,19 @@
 }
 
 .product-name span:last-child{
-    font-size: 58px;
+    font-size: 52.5px;
     position: relative;
     left: 13px;
     top: 1px;
     border: solid white 1px;
     border-radius: 10px;
     padding: 0px 15px;
-    height: 17px;
-    min-height: fit-content;
-    padding-top: -20px;
+    margin-left: 0.7px;
 }
 
 .product-name {
-    margin-left: -4px;
+    margin-left: -13.4px;
+    margin-top: -20.9px;
 }
 
 .product-description {
